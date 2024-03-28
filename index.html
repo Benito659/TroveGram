@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ContactCanvas</title>
+        <link href="css/bootstrap-css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script defer src="js/bootstrap-js/bootstrap.bundle.min.js"></script>
+        <link rel="icon" href="assets/" type="image/png">
+        <style>
+            /* Style for the anchor tag */
+            a {
+                text-decoration: none; /* Remove underline */
+                color: inherit; /* Inherit color from parent */
+                cursor: pointer; /* Change cursor to pointer on hover */
+            }
+
+            /* Style for the anchor tag on hover */
+            a:hover {
+                text-decoration: none; /* Remove underline on hover */
+                color: inherit; /* Inherit color from parent on hover */
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="container-fluid" style="background:linear-gradient(90deg, #ff5757, #8c52ff); color: white;font-family:Inter, sans-serif;">
+            <div class="row" style="height: 100px">
+                <div class="col-1 d-flex align-items-center justify-content-center" style="margin-left: 11% ; font-weight: bold; font-size: 25px;">
+                    TroveGram
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center" style="font-size: 19px; margin-left: 13% ;">
+                    <a href="#">Acceuil</a>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center" style="font-size: 19px;">
+                    <a href="#apropos"> Fonctionnalités</a>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center" style="font-size: 19px; ">
+                    <a href="#services">Pricing</a>
+                </div>
+                <div class="col-1 d-flex align-items-center justify-content-center" style="font-size: 19px; margin-right: 12% ;">
+                    <a href="#realisations">Contact</a>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center" style="position:relative;" >
+                    <button type="button" class="btn btn-primary mx-auto d-block" style="width:auto;background-color:#4a50c7;font-size: 19px; " data-bs-toggle="modal" data-bs-target="#modalcontactermoi">Se connecter</button>
+                </div>
+            </div>
+            <div class="row" style="height: auto; margin-top: 2%;">
+                <div class="col-12" style="padding-top: 5%; padding-left: 8%;"> 
+                    <h1 style="font-weight: bold; padding-top: 3%; font-size: 50px; text-align: center;">VOTRE APPLICATION DE CONSTRUCTION  DE COMMUNITE TELEGRAM</h1>
+                    <h2 style="padding-top: 5%; font-size: 25px; text-align: center;">Créer vos groupes, canals et planifier vos posts, la gestion, proposer des services,proposer du contenu exclusifs avec paiment</h2>
+                    <div style="margin-top: 5%; text-align: center;">
+                        <button type="button" class="btn btn-primary" style="width:auto;background-color:#4a50c7;font-size: 19px;"  data-bs-toggle="modal" data-bs-target="#modalcontactermoi" >Commencer ></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row " style="height: auto;padding-top: 15%;">
+                <h1 id="services" class="d-flex align-items-center justify-content-center" style="font-weight:bold;"> 
+                    FONCTIONNALITES
+                </h1>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row" style="height: auto;padding-top: 6%; display: flex;">
+                <div class="col-2" style=" height: auto;"></div>
+                <div class="col-2" style=" height: auto;">
+                    <div class="row" style="font-size: 15px; font-weight: bold;">
+                        <div  class="d-flex align-items-center justify-content-center">
+                            <img src="assets/fonctionnalite1.png" alt="logo of " style="width: 80px; height: 50px; border-radius: 15%; font-size: 10px;">
+                        </div>
+                        <div  class="d-flex align-items-center justify-content-center">
+                            Creer sa <br>
+                            communauté.
+                        </div>
+                    </div>
+                    <div class="row d-flex align-items-center justify-content-start" style="margin-top: 48%; margin-bottom: 48%; font-size: 15px; font-weight: bold;"> 
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="assets/fonctionnalite2.png" alt="logo of " style="width: 80px; height: 60px; border-radius: 15%;">
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            Planifier des <br>
+                            posts.
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center justify-content-center" style=" padding-left: 5%;padding-right:5%;">
+                        <img src="assets/backgroundcenter.png" alt="photo" style="width:100%; height:80%;">
+                </div>
+                <div class="col-2" style=" height: auto;">
+                    <div class="row d-flex align-items-center justify-content-start" style="font-size: 15px; font-weight: bold;"> 
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="assets/fonctionnalite3.png" alt="logo of " style="width: 80px; height: 60px; border-radius: 15%;">
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            Proposer du contenu  <br>
+                            exclusifs.
+                        </div>
+
+                    </div>
+                    <div class="row" style="margin-top: 48%; margin-bottom: 48%; font-size: 15px; font-weight: bold;"> 
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="assets/fonctionnalite4.png" alt="logo of " style="width: 80px; height: 60px; border-radius: 15%;">
+                        </div>
+                        <div  class="d-flex align-items-center justify-content-center">
+                            Signaux de trading <br>
+                            sur telegram.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row " style="height: auto;padding-top: 15%;">
+                <h1 id="services" class="d-flex align-items-center justify-content-center" style="font-weight:bold;"> 
+                    Comment fonctionne la solution ?
+                </h1>
+            </div>
+            <div class="row " style="height: auto;">
+                <img src="assets/fonctionnement.png" alt="logo of " class="d-flex align-items-center justify-content-center" >
+            </div>
+
+            <div class="row " style="height: auto;padding-top: 5%;">
+                <h1 id="services" class="d-flex align-items-center justify-content-center" style="font-weight:bold;"> 
+                    Que vous apporte notre application ?
+                </h1>
+            </div>
+
+            <div class="row " style="height: auto;margin-top: 6%; padding-top: 1%; padding-bottom: 1%; font-size: 30px; font-weight: bold;">
+                <div class="col-1"></div>
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <img src="assets/apport1.png" alt="logo of " style="width: 80px; height: 60px;">
+                </div>
+                <div class="col-7 d-flex align-items-center justify-content-center" style="background-color: #5e17eb;border-radius: 20px;">
+                    Transformer vos contacts en Leads Qualifiées.
+                </div>
+            </div>
+
+            <div class="row " style="height: auto;margin-top: 6%; padding-top: 1%; padding-bottom: 1%; font-size: 30px; font-weight: bold;">
+                <div class="col-1"></div>
+                <div class="col-7 d-flex align-items-center justify-content-center" style="background-color: #5e17eb;border-radius: 20px;">
+                    Gagner une productivité accrue.
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <img src="assets/apport2.png" alt="logo of " style="width: 80px; height: 60px;">
+                </div>
+            </div>
+
+            <div class="row " style="height: auto;margin-top: 6%; padding-top: 1%; padding-bottom: 1%; font-size: 30px; font-weight: bold;">
+                <div class="col-1"></div>
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <img src="assets/apport3.png" alt="logo of " style="width: 80px; height: 60px;">
+                </div>
+                <div class="col-7 d-flex align-items-center justify-content-center" style="background-color: #5e17eb;border-radius: 20px;">
+                    Communication ciblée et meilleure organisation.
+                </div>
+            </div>
+
+            <div class="row " style="height: auto;margin-top: 6%; padding-top: 1%; padding-bottom: 1%; font-size: 30px; font-weight: bold;">
+                <div class="col-1"></div>
+                <div class="col-7 d-flex align-items-center justify-content-center" style="background-color: #5e17eb;border-radius: 20px;">
+                    Centralisation des contacts.
+                </div>
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <img src="assets/apport4.png" alt="logo of " style="width: 80px; height: 60px;">
+                </div>
+            </div>
+            
+            <div class="row " style="height: auto;margin-top: 6%; padding-top: 1%; padding-bottom: 1%; font-size: 30px; font-weight: bold;">
+                <div class="col-1"></div>
+                <div class="col-3 d-flex align-items-center justify-content-center">
+                    <img src="assets/apport5.png" alt="logo of " style="width: 80px; height: 60px;">
+                </div>
+                <div class="col-7 d-flex align-items-center justify-content-center" style="background-color: #5e17eb;border-radius: 20px;">
+                    Accessibilité multiplateformes.
+                </div>
+            </div>
+
+
+            <div class="row " style="height: auto;padding-top: 20%;">
+                <h1 id="services" class="d-flex align-items-center justify-content-center" style="font-weight:bold;"> 
+                    Pricing
+                </h1>
+            </div>
+            <div class="row" style="margin-top: 6%;padding-top: 1%; padding-bottom: 1%; font-size: 30px; font-weight: bold; color: black;">
+                <div class="col-3" style="background-color: white;margin-left: 8%;margin-right: 2%;border-radius: 25px;"> 
+                    <div class="d-flex justify-content-center">
+                        Standard
+                    </div>
+                    <div class="d-flex align-items-end justify-content-center">
+                        <div style="font-size: 90px; ">
+                            5€
+                        </div>
+                        <div>
+                            /mois
+                        </div>
+                    </div>
+                    <div class="border d-flex justify-content-center" style="background-color: black;color: white; border-radius: 25px; margin-top: 5%; margin-bottom: 10%;">
+                        Select
+                    </div>
+                </div>
+                <div class="col-3" style="background-color: white;margin-left: 2%;margin-right: 2%;border-radius: 25px;"> 
+                    <div class="d-flex justify-content-center">
+                        Premium
+                    </div>
+                    <div class="d-flex align-items-end justify-content-center">
+                        <div style="font-size: 90px; ">
+                            15€
+                        </div>
+                        <div>
+                            /mois
+                        </div>
+                    </div>
+                    <div class="border d-flex justify-content-center" style="background-color: black;color: white; border-radius: 25px; margin-top: 5%; margin-bottom: 10%;">
+                        Select
+                    </div>
+                </div>
+                <div class="col-3" style="background-color: white;margin-left: 2%;margin-right: 8%;border-radius: 25px;">
+                    <div class="d-flex justify-content-center">
+                        Advanced
+                    </div>
+                    <div class="d-flex align-items-end justify-content-center">
+                        <div style="font-size: 90px; ">
+                            25€
+                        </div>
+                        <div>
+                            /mois
+                        </div>
+                    </div>
+                    <div class="border d-flex justify-content-center" style="background-color: black;color: white; border-radius: 25px; margin-top: 5%; margin-bottom: 10%;">
+                        Select
+                    </div>
+                </div>
+            </div>
+
+            <div class="row " style="height: auto;padding-top: 15%;">
+                <h1 id="services" class="d-flex align-items-center justify-content-center" style="font-weight:bold;"> 
+                    Questions Fréquentes :
+                </h1>
+            </div>
+            <div class="row" style="margin-top: 6%;padding-top: 1%; padding-bottom: 1%; font-size: 25px; font-weight: bold; background-color: #5e17eb;margin-left: 10%;margin-right: 10%; border-radius: 20px;">
+                <div class="col-10 d-flex align-items-center justify-content-start">
+                    Pourquoi choisir ContactCanvas ?
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-end">
+                    <img src="assets/plus.png" alt="logo of " class="d-flex align-items-center justify-content-end" style="width:50px; height: 50px;">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 3%;padding-top: 1%; padding-bottom: 1%; font-size: 25px; font-weight: bold; background-color: #5e17eb;margin-left: 10%;margin-right: 10%; border-radius: 20px;">
+                <div class="col-10 d-flex align-items-center justify-content-start">
+                    Quels réseaux sociaux utilisées pour génerer les contacts ?
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-end">
+                    <img src="assets/plus.png" alt="logo of " class="d-flex align-items-center justify-content-end" style="width:50px; height: 50px;">
+                </div>
+            </div>
+            <div class="row" style="margin-top: 3%;padding-top: 1%; padding-bottom: 1%; font-size: 25px; font-weight: bold; background-color: #5e17eb;margin-left: 10%;margin-right: 10%; border-radius: 20px;">
+                <div class="col-10 d-flex align-items-center justify-content-start">
+                    Quels formats utilisées pour exporter les données ?
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-end">
+                    <img src="assets/plus.png" alt="logo of " class="d-flex align-items-center justify-content-end" style="width:50px; height: 50px;">
+                </div>
+            </div>
+
+            <div class="row " style="height: auto;padding-top: 15%;">
+                <h1 id="services" class="d-flex align-items-center justify-content-center" style="font-weight:bold;"> 
+                    Contacter nous
+                </h1>
+            </div>
+
+            <form style="margin-left: 25%;margin-right: 25%; margin-top: 3%; font-size: 25px;">
+                <div class="row">
+                    <div class="col">
+                        <div data-mdb-input-init class="form-outline">
+                            <input type="text" id="form6Example1" class="form-control" placeholder="Full Name" style="border-radius: 20px;font-size: 25px;"/>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div data-mdb-input-init class="form-outline">
+                            <input type="text" id="form6Example2" class="form-control" placeholder="Email" style="border-radius: 20px;font-size: 25px;"/>
+                        </div>
+                    </div>
+                </div>
+                <div data-mdb-input-init class="form-outline mb-4" style="margin-top: 5%;">
+                    <input type="email" id="form6Example5" class="form-control" placeholder="Subject" style="border-radius: 20px;font-size: 25px;"/>
+                </div>
+                <div data-mdb-input-init class="form-outline mb-4" >
+                    <textarea class="form-control" id="form6Example7" rows="4" placeholder="Message" style="border-radius: 20px;font-size: 25px;"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button data-mdb-ripple-init type="button" onclick="sendEmail()" class="btn btn-primary btn-block mb-4 form-outline" style="border-radius: 20px;width: 100%; font-size: 30px;">Submit</button>
+                    </div>
+                </div>
+                
+            </form>
+
+            <script>
+                function sendEmail() {
+                    emailjs.init("Bwt6EDO4kx3Ag7-36");
+                    var fullName = document.getElementById("form6Example1").value;
+                    var emailAddress = document.getElementById("form6Example2").value;
+                    var emailSubject = document.getElementById("form6Example5").value;
+                    var emailMessage = document.getElementById("form6Example7").value;
+
+                    emailjs.send("service_g6107ul", "template_agqm8d8", {
+                            to_name: "Benito Btech Contact",
+                            from_name: fullName,
+                            from_email: emailAddress,
+                            subject: emailSubject,
+                            message_html: emailMessage
+                        }).then(function(response) {
+                            alert("Email sent successfully!");
+                            // Optionally, you can redirect the user to a thank you page or clear the form
+                            // window.location.href = "thank_you.html";
+                            // document.getElementById("emailForm").reset();
+                        }, function(error) {
+                            alert("Failed to send email. Please try again later.");
+                            console.error("Email send error:", error);
+                        });
+                }
+            </script>
+
+        </div>
+    </body>
+</html>
